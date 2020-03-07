@@ -45,6 +45,9 @@ function submit(x) {
                         <!-- <li><span href="#"><span class="fa fa-plus"></span></span>
                         </li>
                         <li><a href="#"><span class="fa fa-trash-o"></span></a></li> -->
+                        <li data-toggle="tooltip" data-placement="top" title="Cetak Laporan"><a
+                                href="<?=$base_url;?>hal/cetak_peminjaman.php" target="_blank"><span
+                                    class="fa fa-print"></span></a></li>
                         <li data-toggle="tooltip" data-placement="top" title="Refresh"><a
                                 href="<?=$base_url;?>?peminjaman"><span class="fa fa-refresh"></span></a></li>
                     </ul>

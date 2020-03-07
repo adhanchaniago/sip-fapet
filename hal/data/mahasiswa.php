@@ -146,6 +146,9 @@ function otherProdi() {
                                 href="<?=$base_url;?>proses/barcode_mhs.php?param=all" target="_blank"><span
                                     class="fa fa-barcode"></span></a>
                         </li>
+                        <li data-toggle="tooltip" data-placement="top" title="Cetak Laporan"><a
+                                href="<?=$base_url;?>hal/cetak_mhs.php" target="_blank"><span
+                                    class="fa fa-print"></span></a></li>
                         <li data-toggle="tooltip" data-placement="top" title="Refresh"><a
                                 href="<?=$base_url;?>?mahasiswa"><span class="fa fa-refresh"></span></a></li>
                     </ul>

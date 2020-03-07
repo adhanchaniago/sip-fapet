@@ -20,14 +20,10 @@
         <div class="page-content">
             <?php
                 if(isset($_GET['backup_app'])){
-                    $setting = 'active';
-                    $saldoawal = 'active';
-                    include ('proses/backup_app.php');
+                    $hal = 'proses/backup_app.php';
                 }
                 else if(isset($_GET['backup_db'])){
-                    $transaksi = 'active';
-                    $pemasukan = 'active';
-                    include ('proses/backup_db.php');
+                    $hal = 'proses/backup_db.php';
                 }
                 else if(isset($_GET['mahasiswa'])){
                     $mahasiswa = true;

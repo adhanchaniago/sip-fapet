@@ -104,6 +104,9 @@ function ubah_gambar(x) {
                                 href="<?=$base_url;?>proses/barcode_bk.php?param=all" target="_blank"><span
                                     class="fa fa-barcode"></span></a>
                         </li>
+                        <li data-toggle="tooltip" data-placement="top" title="Cetak Laporan"><a
+                                href="<?=$base_url;?>hal/cetak_buku.php" target="_blank"><span
+                                    class="fa fa-print"></span></a></li>
                         <li data-toggle="tooltip" data-placement="top" title="Refresh"><a
                                 href="<?=$base_url;?>?buku"><span class="fa fa-refresh"></span></a></li>
                     </ul>

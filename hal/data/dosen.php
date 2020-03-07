@@ -116,6 +116,9 @@ function preview_foto(event) {
                                 href="<?=$base_url;?>proses/barcode_dsn.php?param=all" target="_blank"><span
                                     class="fa fa-barcode"></span></a>
                         </li>
+                        <li data-toggle="tooltip" data-placement="top" title="Cetak Laporan"><a
+                                href="<?=$base_url;?>hal/cetak_dsn.php" target="_blank"><span
+                                    class="fa fa-print"></span></a></li>
                         <li data-toggle="tooltip" data-placement="top" title="Refresh"><a
                                 href="<?=$base_url;?>?dosen"><span class="fa fa-refresh"></span></a></li>
                     </ul>

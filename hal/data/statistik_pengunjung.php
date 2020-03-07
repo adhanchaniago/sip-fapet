@@ -15,11 +15,9 @@
                 <div class="panel-heading">
                     <h3 class="panel-title">Statistik Pengunjung</h3>
                     <ul class="panel-controls">
-                        <!-- <li><span href="#"><span class="fa fa-plus"></span></span>
-                        </li>
-                        <li><a href="#"><span class="fa fa-trash-o"></span></a></li> -->
-                        <!-- <li data-toggle="tooltip" data-placement="top" title="Refresh"><a
-                                href="<?=$base_url;?>?pengunjung"><span class="fa fa-refresh"></span></a></li> -->
+                        <li data-toggle="tooltip" data-placement="top" title="Cetak Laporan"><a
+                                href="<?=$base_url;?>hal/cetak_statistik.php" target="_blank"><span
+                                    class="fa fa-print"></span></a></li>
                     </ul>
                 </div>
                 <div class="panel-body table-responsive">
